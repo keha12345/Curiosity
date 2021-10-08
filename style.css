@@ -703,11 +703,6 @@ h2{
     justify-content: space-between;
 }
 
-.picture-footer-two {
-    /* display: flex;
-    flex-direction:column; */
-}
-
 .telefon {
     display: flex;
     margin-bottom: 0;
