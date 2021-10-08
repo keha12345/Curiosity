@@ -439,6 +439,140 @@ a {
 /* не трогать */
 
 /* Начало Для Маша */
+p{
+    margin: 2.5vw 0;
+}
+h2{
+    font-family: Roboto Slab, Arial, serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 3vw 0;
+}
+.wrapper{
+    margin: 0 8.4vw;
+}
+.utp{
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.utp p{
+    font-weight: 400;
+}
+
+.masha .wrapper {
+    padding: 3vw 8.47vw;
+}
+
+.masha h2 {
+    font-size: 3.87vw;
+}
+
+.back-grey {
+    background-color: #EFEFEF;
+}
+
+.review {
+    background-color: white;
+    width: 54.93vw;
+    padding: 2.2vw 3vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2.08vw;
+}
+
+.review p {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.39vw;
+    line-height: 2.09vw;
+}
+
+.review-autor {
+    display: flex;
+    align-items: center;
+}
+
+.autor-photo {
+    width: 19%;
+    margin-right: 6.3%;
+}
+
+.autor-name p {
+    font-family: Roboto Slab, Arial, serif;
+    font-weight: 700;
+    font-size: 2vw;
+    margin: 0;
+}
+
+.autor-name .fb-logo {
+    width: 10%;
+    margin-top: 1.5vw;
+}
+
+/* @media для блока Маши для 833px */
+@media (max-width: 833px){
+
+    .masha .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0;
+    }
+
+    .masha h2 {
+       margin-top: 11vw;
+       font-size: 6.9vw;
+       line-height: 6.95vw;
+    }
+
+    .review {
+        width: 100%;
+        margin: 0 0 14vw 0;
+        padding: 5vw 7.5vw 5vw 5vw;
+    }
+
+    .review-autor {
+        width: 100%;
+    }
+    .review p {
+        font-family: Roboto, Arial, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.65vw;
+        line-height: 3.98vw;
+        margin: 0 0 2.5vw 0;
+    }
+
+    .autor-photo {
+        width: 26%;
+        margin-right: 6.3%;
+    }
+
+    .autor-name {
+        margin-left: 5vw;
+    }
+
+    .autor-name p {
+        font-family: Roboto Slab, Arial, serif;
+        font-weight: 700;
+        font-size: 3.72vw;
+        line-height: 101%;
+        /* line-height: 3.8vw; */
+    }
+
+    .review p {
+        font-size: 2.65vw;
+        line-height: 3.98vw;
+    }
+
+    .autor-name .fb-logo {
+        width: 10%;
+        margin-top: 2.5vw;
+    }
+}
+
 
 /* Конец Для Маша */
 
