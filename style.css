@@ -456,6 +456,92 @@ a {
 /* не трогать */
 
 /* Начало Для Гали */
+.galya{
+    margin-top: 13.71vw;
+}
+.h2-cards{
+    font-family: Roboto Slab, Arial, serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 3vw 0;
+    font-size: 3.81vw;
+}
+
+.chapte-4-cards{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 0 3.2vw;
+    flex-wrap: wrap;
+    margin-top: 6.25vw;
+}
+.chapte-4-card{
+    width: 27.7vw;
+    height: 22.7vw;
+    border-radius: 2vw;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    margin: 1.42vw 1.28vw;
+}
+.chapte-4-card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.31vw;
+    position: relative;
+    font-family: Roboto, Arial, sans-serif;
+    height: 51%;
+}
+.chapte-4-card img{
+    width: 100%;
+}
+.chapte-4-span-card{
+    font-weight: bold;
+    font-size: 2.08vw;
+    line-height: 130%;
+}
+.chapte-4-p-card{
+    margin: 0;
+    font-size: 1.74vw;
+}
+.utp p{
+    font-weight: 400;
+}
+
+
+
+@media (max-width: 1280px){
+
+}
+
+@media (max-width: 833px){
+    
+    .chapte-4-cards{
+        justify-content: center;
+        margin-top: 6.25vw;
+    }
+    .chapte-4-card{
+        width: 49.58vw;
+        height: 40.75vw;
+        justify-content: center;
+        margin: 3.2vw auto;
+        border-radius: 3.7277vw;
+    }
+    .chapte-4-card div{
+        padding: 5.23%;        
+    }
+    .chapte-4-span-card{
+        font-size: 3.73vw;
+    }
+    .chapte-4-p-card{
+        font-size: 3.2vw;
+    }     
+    .h2-cards{
+        font-size: 6.9vw;
+    }
+}    
+
 
 /* Конец Для Гали */
 
