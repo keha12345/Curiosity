@@ -440,7 +440,97 @@ a {
 /* не трогать */
 
 /* Начало Для Леши */
+header {
+  display : flex;
+}  
 
+section .wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+    width: 12vw;
+    margin-bottom: 5vw;
+}
+
+.top-title {
+  /* word-wrap: 2.05rem; */
+  width: 39vw;
+  font-size: 2.05rem;
+}
+
+.header-bottom-logo{
+  display: flex;
+  width: 33vw;
+  font-size: 1.2vw;
+}
+.header-bottom-logo div{
+  display : flex;
+  align-items: center;
+  margin-right: 3vw;
+}
+
+.header-bottom-logo div img {
+  width: 1vw;
+  height: 1vw;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-icons-text {
+  flex-direction: row;
+}
+
+.right-article {
+  width: 21vw;
+  height: 3.5%
+
+}
+
+.top-title h1 {
+
+  font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+  font-size: 5.5vw;
+}
+.bottom-article span {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1.38vw;
+  line-height: 2vw;
+  /* display: block; */
+  
+}
+
+.bottom-article {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-article img{
+  width: 100%;
+}
+.left-article {
+  width: 47vw;
+  
+}
+.top-title {
+  font-size: 5.5vw;
+  line-height:5,6vw;
+}
+
+.shadow_podium {
+width: 100%;
+height:2.5vw;
+border-radius: 50%;
+background-color: #EFEFEF;
+z-index:-1;
+position:relative;
+bottom: 1.25vw;
+right: 0;
+}
 /* Конец Для Леши */
 
 /* не трогать */
@@ -1198,4 +1288,95 @@ h2{
         position: relative;
         top: 33vw;
     }
+
+    .footer-text {
+        width: 33.33vw;
+        font-size: 3.2vw;
+    }
+    .contact {
+        position: relative;
+        bottom: -6vw;
+    }
+    .img-contact {
+        margin-right: 2.66vw;
+    }
+    .footer-contact {
+        margin-bottom: 1.6vw;
+    }
+    .footer-contact img {
+        width: 3.2vw;
+    }
+    .signature-text {
+        width: 35vw;
+    }
+    .social-link img {
+        width: 4.2vw;
+    }
+    .insta-link {
+        margin-right: 2.23vw;
+    }
+    .fb-link {
+        margin-right: 2.66vw;
+    }
+    .vk-link {
+        margin-right: 3vw;
+    }
 }
+    
+    @media (max-width: 833px){
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+  
+    }
+
+
+    .top-title {
+    width: 72%;
+    font-size: 9.9%;
+    }
+
+    .header-bottom-logo{
+    width: 59vw;
+    font-size: 1.2vw;
+    }
+    .header-bottom-logo div{
+    margin-right: 5.4vw;
+    }
+
+    .header-bottom-logo div img {
+    width: 1.8vw;
+    height: 1.8vw;
+    }
+
+    .right-article {
+    width: 37.8vw;
+
+    }
+
+    .top-title h1 {
+    font-size: 9.9vw;
+    }
+    .bottom-article span{
+    font-size: 2.4vw;
+    line-height: 3.6vw;
+    }
+
+    .left-article {
+    width: 84vw;
+
+    }
+    .top-title {
+    font-size: 9.9vw;
+    line-height:5,6vw;
+    }
+
+    .shadow_podium {
+        height:4.5vw;
+        bottom: 2.2vw;
+    }
+
+}
+
+
