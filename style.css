@@ -431,6 +431,13 @@ a {
 .galya{
     margin-top: 13.71vw;
 }
+.h2-cards{
+    font-family: Roboto Slab, Arial, serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 3vw 0;
+    font-size: 3.81vw;
+}
 
 .chapte-4-cards{
     overflow-x: hidden;
