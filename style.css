@@ -4,22 +4,27 @@
     padding: 0;
     margin: 0;
 }
+
 body {
-   height: 100%;
+    height: 100%;
 }
+
 .wrapper {
     margin-left: 8.4vw;
-    min-height: 100%;
+    /* min-height: 100%; */
 }
+
 main {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
 }
+
 img {
     display: block;
     width: 100%;
 }
+
 a {
     text-decoration: none;
 }
@@ -28,11 +33,13 @@ a {
     display: flex;
     margin-top: 6.94vw;
 }
+
 .card-time {
     display: flex;
-    align-items:baseline;
+    align-items: baseline;
     margin-right: 1.74vw;
 }
+
 .card-time img {
     width: 1.53vw;
 }
@@ -40,23 +47,28 @@ a {
 .card-time:nth-child(2) {
     margin-right: 0;
 }
+
 .card-time:nth-child(3) {
     margin-right: 0;
 }
+
 .timetable-text {
     width: 9.03vw;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.39vw; 
+    font-size: 1.39vw;
     line-height: 115%;
 }
-.globe{
+
+.globe {
     margin-right: 0.56vw;
 }
+
 .time {
     margin-right: 0.69vw;
 }
+
 .calendar {
     margin-right: 0.90vw;
 }
@@ -65,36 +77,43 @@ a {
     display: flex;
     align-items: flex-start;
 }
+
 .watch-title {
     margin-right: 9.86vw;
 }
+
 .h-watch {
     width: 43.61vw;
     margin-top: 2vw;
     margin-bottom: 1.32vw;
 }
+
 .h-style {
     font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: bold;
     line-height: 101.38%;
 }
+
 .h-size {
     font-size: 5.55vw;
 }
+
 .watch__block__size {
     width: 28.75vw;
     font-size: 1.39vw;
-    
 }
-.img-noroot{
+
+.img-noroot {
     width: 21.11vw;
     position: relative;
 }
+
 .img-br {
     position: relative;
     z-index: 1;
 }
+
 .ellipse-shadow {
     width: 91%;
     height: 11.5%;
@@ -105,47 +124,57 @@ a {
     background: #EFEFEF;
     z-index: 0;
 }
-.group-img{
+
+.group-img {
     width: 33.54vw;
     margin-top: 6.08vw;
     margin-left: 20vw;
 }
+
 .heading-size {
     font-size: 3.82vw;
 }
+
 .about-course {
     width: 27.56vw;
     margin-bottom: 1.64vw;
     margin-top: 11.80vw;
 }
+
 .about-content {
     display: flex;
 }
+
 .about-text {
     width: 45.5vw;
     margin-right: 12.36vw;
     margin-top: 1.5vw;
     font-size: 1.67vw;
 }
+
 .about-text p:first-child {
     margin-bottom: 3.68vw;
 }
+
 .about__style {
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 150%;
 }
+
 .img-first {
     width: 21.8vw;
     position: relative;
     align-items: center;
     margin-top: 5vw;
 }
+
 .img-head {
     position: relative;
     z-index: 1;
 }
+
 .ellipse-shadow-first {
     width: 118%;
     height: 15%;
@@ -156,20 +185,24 @@ a {
     background: #EFEFEF;
     z-index: 0;
 }
+
 .content-title {
     display: flex;
     align-items: center;
     margin-top: 6.94vw;
 }
+
 .content-img {
     width: 16.11vw;
     margin-right: 9.17vw;
     position: relative;
 }
+
 .img-second {
     position: relative;
     z-index: 1;
 }
+
 .ellipse-shadow-second {
     width: 80%;
     height: 18%;
@@ -180,79 +213,97 @@ a {
     background: #EFEFEF;
     z-index: 0;
 }
+
 .content-card {
     width: 10.42vw;
     margin-right: 6.53vw;
 }
+
 .content-card:last-child {
     margin-right: 0;
 }
-.fs-heading {              
+
+.fs-heading {
     font-size: 1.74vw;
 }
+
 .heading__style {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 130%;
 }
+
 .card-indent {
     padding-bottom: 0.25vw;
 }
+
 .color {
     color: rgba(30, 70, 129, 1);
 }
+
 .p__style__text {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 130%;
 }
+
 .card-text {
     font-size: 1.25vw;
-}   
+}
+
 .about-format {
     width: 46.32vw;
     margin-bottom: 6.18vw;
     margin-top: 9.94vw;
 }
+
 .format-main {
     display: flex;
     margin-bottom: 12.43vw;
 }
+
 .webinar {
     width: 15.49vw;
     margin-right: 8.5vw;
 }
+
 .access {
     width: 18.82vw;
     margin-right: 7.85vw;
 }
+
 .communication {
     width: 17.01vw;
 }
+
 .find {
     width: 46.32vw;
     margin-bottom: 3.12vw;
 }
+
 .find-content {
     width: 45.97vw;
     margin-bottom: 15.42vw;
     font-size: 1.67vw;
 }
-.cards-container{
+
+.cards-container {
     padding: 2.5%;
     display: flex;
     flex-wrap: wrap;
 }
-.card{
+
+.card {
     margin: 2.27vw;
     width: 26.5vw;
     height: 22vw;
     border-radius: 8%;
     box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.20);
 }
-.card-content{
+
+.card-content {
     height: 51.22%;
     padding: 5%;
     padding-top: 2.5%;
@@ -260,34 +311,42 @@ a {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .card-size {
     font-size: 2.08vw;
 }
-.text{
+
+.text {
     width: 25.34vw;
     font-size: 1.74vw;
 }
+
 .card_style-last {
     line-height: 97%;
 }
+
 .bg-total {
     background: #EFEFEF;
     padding-bottom: 7.7vw;
 }
+
 .total {
     width: 68.54vw;
     padding-top: 7.32vw;
     padding-bottom: 3.88vw;
 }
+
 .card-img-name {
     display: flex;
-    align-items:center;
+    align-items: center;
 }
+
 .total-name {
     width: 24.52vw;
     font-size: 2.08vw;
     padding-bottom: 1.46vw;
 }
+
 .card-name {
     width: 54.93vw;
     height: 33.31vw;
@@ -295,17 +354,21 @@ a {
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 8%;
 }
+
 .card-avatar {
     width: 48.61vw;
 }
+
 .avatar-text-style {
     font-size: 1.39vw;
     padding: 2.77vw 3.12vw 2vw 3.12vw;
 }
+
 .card-img-name {
     width: 13.19vw;
     padding-left: 2vw;
 }
+
 .avatar-name {
     margin-left: 2.08vw;
 }
@@ -313,23 +376,29 @@ a {
 .fb-link {
     width: 2.22vw;
 }
+
 .bg-price {
     background: #9DC9C8;
     padding-top: 12.43vw;
     padding-bottom: 12.84vw;
 }
+
 .course-text {
     width: 68.54vw;
 }
+
 .price-title {
     display: flex;
 }
+
 .price-text {
     width: 11.8vw;
 }
+
 .price-number {
     width: 33.4vw;
 }
+
 .price-content {
     padding: 4vw 0;
 }
@@ -337,83 +406,37 @@ a {
 .card-price-head, .card-price-text {
     width: 19.42vw;
 }
+
 .card-style-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: 101.38%;
 }
+
 .card-price {
     margin-right: 4.86vw;
 }
+
 .card-price:last-child {
     margin-right: 0;
 }
+
 .card-head {
     padding-bottom: 0.62vw;
     font-size: 1.73vw;
 }
-.footer {
-    height: 27.08vw;
-    color: #ffffff;
-    background: #000000;
-}
 
-.footer-logo{
-    margin-bottom: 2.08vw;
-}
-.footer-title {
-    display: flex;
-    justify-content: space-between;
-    width: 81.4vw;
-    padding-top: 3.47vw;
-}
-.footer-content {
-    height: 22vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.social-link {
-    display: flex;
-}
-.social-link img{
-    width: 2.36vw;
-}
+/* не трогать */
 
-.insta-link {
-    margin-right: 1.46vw;
-}
-.fb-link {
-    margin-right: 1.25vw;
-}
-.vk-link {
-    margin-right: 1.74vw;
-}
-.signature-text {
-    width: 16vw;
-}
-.footer-contact img{
-    width: 1.87vw;
-}
-.footer-contact {
-    display: flex;
-    margin-bottom: 1.25vw;
-}
-.footer-contact:last-child {
-    margin-bottom: 0;
-}
-.footer-text {
-    width: 19vw;
-}
-.img-contact {
-    margin-right: 1.53vw;
-}
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
-/* не трогать */
+
 /* не трогать */
 
 /* Начало Для Леши */
@@ -421,10 +444,15 @@ a {
 /* Конец Для Леши */
 
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
 
 /* Начало Для Гали */
@@ -432,10 +460,15 @@ a {
 /* Конец Для Гали */
 
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
 
 /* Начало Для Маша */
@@ -577,68 +610,277 @@ h2{
 /* Конец Для Маша */
 
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
+
 /* не трогать */
 
 /* Начало Для Саши */
+/* qwerty */
+.block-green {
+    background-color: #9DC9C8;
+    padding: 12.4vw 0 12.4vw 0;
+}
+
+.title-screen-gree {
+    font-family: Roboto Slab, Arial, sans-serif;
+    margin-top: 0;
+}
+
+.price {
+    margin-top: 3.75vw;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.price p {
+    font-size: 1.74vw;
+    margin-bottom: 0;
+    padding: 0;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.price span {
+    margin-top: 0;
+    font-size: 5.6vw;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.screen-seven {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.message-box {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4.93vw;
+}
+
+.message {
+    width: 20.4vw;
+    margin-right: 4.86vw;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.fist-p {
+    font-size: 1.74vw;
+    line-height: 101.38%;
+}
+
+.mess-text {
+    font-size: 1.25vw;
+    line-height: 101.38%;
+}
+
+.footer {
+    font-family: Roboto, Arial, sans-serif;
+    padding: 3.5vw 0;
+    height: 27vw;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+
+.footer-conteiner {
+    display: flex;
+    width: 83vw;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+}
+
+.picture-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picture-footer-two {
+    /* display: flex;
+    flex-direction:column; */
+}
+
+.telefon {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.mail {
+    margin-top: 10px;
+    display: flex;
+}
+
+.logo-foot {
+    width: 8vw;
+    margin-bottom: 0;
+}
+
+.social {
+    margin-top: 1, 7vw;
+    display: flex;
+    justify-content: space-between;
+    width: 14vw;
+    margin-top: 4vw;
+}
+
+.social img {
+    width: 2.36vw;
+}
+
+.proof {
+    /* margin: 8.4vw 0; */
+    font-size: 1.25vw;
+    position: absolute;
+    bottom: 2vw;
+    left: 8.4vw;
+}
+
+.telefon {
+    width: 19.36vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+.telefon p {
+    margin: 0;
+    font-size: 1.74vw
+}
+
+.mail {
+    width: 19.36vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.7vw;
+}
+
+.mail p {
+    margin: 0;
+    font-size: 1.74vw;
+}
+
+.contact-image {
+    width: 1.86vw;
+    height: 1.86vw;
+    margin-right: 1vw;
+}
+
+.mail-image {
+    width: 1.86vw;
+    height: 1.25vw;
+    margin-right: 1vw;
+}
+
+@media (max-width: 1280px) {}
+
+@media (max-width: 833px) {
+    .footer-conteiner {
+        flex-direction: column;
+    }
+    .telefon {
+        margin-top: 13.3vw;
+    }
+    .footer {
+        padding: 3.5vw 0;
+        height: 54vw;
+    }
+    .social {
+        width: 25.3vw;
+        margin-top: 4vw;
+    }
+    .social img {
+        width: 4vw;
+    }
+    .logo-foot {
+        width: 13.7vw;
+    }
+    .title-screen-gree {
+        width: 56.7vw;
+        font-size: 26px;
+    }
+    .contact-image {
+        width: 3.18vw;
+        height: 3.18vw;
+        margin-right: 1vw;
+    }
+    .mail-image {
+        width: 3.18vw;
+        height: 2.34vw;
+        margin-right: 1vw;
+    }
+    .proof {
+        font-size: 2.79vw;
+    }
+    .mail {
+        margin-top: 2.79vw;
+        display: flex;
+    }
+}
 
 /* Конец Для Саши */
 
-@media  (max-width: 1279px) {
+@media (max-width: 1279px) {}
 
-}
-.fs-heading {              
+.fs-heading {
     font-size: 1.8vw;
 }
+
 .card-size {
     font-size: 2.03vw;
 }
-.text{
-    
+
+.text {
     font-size: 1.67vw;
 }
+
 .avatar-text-style {
     font-size: 1.44vw;
-    
 }
+
 .card-head {
     font-size: 1.67vw;
-    
 }
+
 .card-price-head, .card-price-text {
     width: 19vw;
 }
+
 .card-text {
     font-size: 1.2vw;
-} 
+}
+
 @media screen and (min-width: 320px) and (max-width: 991px) {
-   
     .wrapper {
         margin-left: 9.33vw;
         margin-right: 8.53vw;
-     }
-    
-    
+    }
     .timetable {
         display: flex;
         margin-top: 11.73vw;
     }
     .card-time {
         display: flex;
-        align-items:baseline;
+        align-items: baseline;
         margin-right: 3.1vw;
     }
     .card-time img {
         width: 2.66vw;
     }
     .timetable-text {
-        width: 16vw; 
+        width: 16vw;
         font-size: 2.66vw;
     }
-    .globe{
+    .globe {
         margin-right: 1vw;
     }
     .time {
@@ -647,7 +889,6 @@ h2{
     .calendar {
         margin-right: 1.6vw;
     }
-    
     .watch-block {
         display: block;
     }
@@ -666,7 +907,7 @@ h2{
         width: 56.53vw;
         font-size: 2.67vw;
     }
-    .img-noroot{
+    .img-noroot {
         width: 21.11vw;
         position: relative;
     }
@@ -684,12 +925,12 @@ h2{
         background: #EFEFEF;
         z-index: 0;
     }
-    .img-noroot{
+    .img-noroot {
         width: 37.78vw;
         position: relative;
         left: 43vw;
     }
-    .group-img{
+    .group-img {
         width: 60vw;
         margin-top: 12vw;
         margin-left: 1vw;
@@ -741,7 +982,7 @@ h2{
     .content-card:last-child {
         padding-bottom: 0;
     }
-    .fs-heading {              
+    .fs-heading {
         font-size: 3.2vw;
     }
     .card-indent {
@@ -749,12 +990,11 @@ h2{
     }
     .card-text {
         font-size: 2.66vw;
-    } 
+    }
     .about-format {
         width: 82.66vw;
         margin-top: 17.66vw;
         margin-bottom: 7.46vw;
-        
     }
     .format-main {
         display: block;
@@ -782,20 +1022,20 @@ h2{
         margin-bottom: 16.26vw;
         font-size: 3.2vw;
     }
-    .cards-container{
+    .cards-container {
         padding-top: 12.5vw;
         padding-bottom: 6.3vw;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .card{
+    .card {
         margin: 0;
         margin-bottom: 6.4vw;
         width: 49.6vw;
         height: 40.8vw;
     }
-    .card-content{
+    .card-content {
         height: 50.98%;
         padding: 4.83%;
         padding-top: 2.68%;
@@ -805,16 +1045,16 @@ h2{
     .card-size {
         font-size: 3.73vw;
     }
-    .text{
+    .text {
         width: 45.33vw;
         font-size: 3.2vw;
     }
     .bg-total {
-        padding-bottom:14.66vw
+        padding-bottom: 14.66vw
     }
     .total {
-        width:67vw;
-        padding-top:11.2vw;
+        width: 67vw;
+        padding-top: 11.2vw;
         padding-bottom: 5.86vw;
     }
     .card-name {
@@ -858,14 +1098,14 @@ h2{
         width: 59.73vw;
     }
     .price-content {
-       padding: 7.73vw 0;
+        padding: 7.73vw 0;
     }
     .card-price-head {
         width: 36.53vw;
     }
     .card-price-text {
         width: 34.5vw;
-        }
+    }
     .card-price {
         margin-right: 8.26vw;
     }
@@ -873,58 +1113,8 @@ h2{
         font-size: 3.2vw;
         padding-bottom: 1.33vw;
     }
-    .footer {
-        height: 66.93vw;
-    }
-    
-    .footer-logo{
-        margin-bottom: 3.73vw;
-    }
-    .footer-title {
-        display: flex;
-        flex-direction: column;
-        padding-top: 6.13vw;
-    }
-    .footer-content {
-        height: 22vw;
-        display: flex;
-        flex-direction: column;
-        }
     .signature p {
         position: relative;
         top: 33vw;
     }
-    .footer-text {
-        width: 33.33vw;
-        font-size: 3.2vw;
-    }
-    .contact {
-        position: relative;
-        bottom: -6vw;
-    }
-    .img-contact {
-        margin-right: 2.66vw;
-    }
-    .footer-contact {
-        margin-bottom: 1.6vw;
-    }
-    .footer-contact img {
-        width: 3.2vw;
-    }
-    .signature-text {
-        width: 35vw;
-    }
-    .social-link img {
-        width: 4.2vw;
-    }
-    .insta-link {
-        margin-right: 2.23vw;
-    }
-    .fb-link {
-        margin-right: 2.66vw;
-    }
-    .vk-link {
-        margin-right: 3vw;
-    }
- 
 }
